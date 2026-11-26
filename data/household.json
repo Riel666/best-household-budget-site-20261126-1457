@@ -1,0 +1,512 @@
+{
+ "bills": [
+  {
+   "amount": 1850,
+   "auto": true,
+   "due": "1 Dec",
+   "label": "Mortgage"
+  },
+  {
+   "amount": 142,
+   "auto": true,
+   "due": "5 Dec",
+   "label": "Electricity — City Power"
+  },
+  {
+   "amount": 65,
+   "auto": true,
+   "due": "8 Dec",
+   "label": "Internet — NorthLink"
+  },
+  {
+   "amount": 118,
+   "auto": true,
+   "due": "12 Dec",
+   "label": "Car insurance"
+  },
+  {
+   "amount": 54,
+   "auto": false,
+   "due": "15 Dec",
+   "label": "Water — City Water"
+  },
+  {
+   "amount": 60,
+   "auto": false,
+   "due": "18 Dec",
+   "label": "Swimming lessons (June)"
+  }
+ ],
+ "categories": [
+  {
+   "blurb": "Mortgage, home insurance and tax escrow — the same every month.",
+   "budget": 1850,
+   "key": "housing",
+   "label": "Housing",
+   "spent": 1850
+  },
+  {
+   "blurb": "Weekly shop, plus the monthly bulk run. Over budget this month — the bulk run and Maya's birthday week pushed it past $720.",
+   "budget": 720,
+   "key": "groceries",
+   "label": "Groceries",
+   "spent": 931.42
+  },
+  {
+   "blurb": "Electricity, water, gas, internet and two phone lines.",
+   "budget": 410,
+   "key": "utilities",
+   "label": "Utilities",
+   "spent": 386.1
+  },
+  {
+   "blurb": "Fuel for two cars, bus fares and car insurance.",
+   "budget": 520,
+   "key": "transport",
+   "label": "Transport",
+   "spent": 361.75
+  },
+  {
+   "blurb": "Takeaway and the occasional restaurant. Over budget this month.",
+   "budget": 220,
+   "key": "dining",
+   "label": "Dining out",
+   "spent": 254.6
+  },
+  {
+   "blurb": "Pharmacy, dentist check-up and the monthly prescriptions.",
+   "budget": 180,
+   "key": "health",
+   "label": "Health",
+   "spent": 142.3
+  },
+  {
+   "blurb": "School lunches, June's swimming lessons and new shoes. Over budget this month.",
+   "budget": 300,
+   "key": "kids",
+   "label": "Kids",
+   "spent": 318.9
+  },
+  {
+   "blurb": "Streaming, the family film night and two second-hand books.",
+   "budget": 150,
+   "key": "entertainment",
+   "label": "Entertainment",
+   "spent": 138.45
+  },
+  {
+   "blurb": "Winter coats on sale, bought early.",
+   "budget": 120,
+   "key": "clothing",
+   "label": "Clothing",
+   "spent": 86.2
+  },
+  {
+   "blurb": "A leaking tap fixed, light bulbs and garden supplies.",
+   "budget": 200,
+   "key": "home",
+   "label": "Home & garden",
+   "spent": 174.55
+  },
+  {
+   "blurb": "Moved to the goals on payday, before anything else is spent.",
+   "budget": 1200,
+   "key": "savings",
+   "label": "Savings",
+   "spent": 1200
+  },
+  {
+   "blurb": "Haircuts, birthday card and the odds and ends that fit nowhere else.",
+   "budget": 180,
+   "key": "misc",
+   "label": "Miscellaneous",
+   "spent": 52.4
+  }
+ ],
+ "currency": "USD",
+ "goals": [
+  {
+   "blurb": "Six months of essential bills, kept in a separate savings account. The first goal every payday feeds.",
+   "key": "emergency",
+   "label": "Emergency fund",
+   "monthly": 500,
+   "saved": 8450,
+   "target": 12000
+  },
+  {
+   "blurb": "The roof is twenty years old and the inspector said five more years at most. Saving now beats borrowing later.",
+   "key": "roof",
+   "label": "New roof",
+   "monthly": 300,
+   "saved": 2300,
+   "target": 6500
+  },
+  {
+   "blurb": "A week by the coast next summer — June has already picked the beach.",
+   "key": "holiday",
+   "label": "Family holiday",
+   "monthly": 200,
+   "saved": 1150,
+   "target": 2400
+  },
+  {
+   "blurb": "Tom's car is at 148,000 miles. The fund buys its replacement outright, no loan.",
+   "key": "car",
+   "label": "Car replacement",
+   "monthly": 200,
+   "saved": 3700,
+   "target": 9000
+  }
+ ],
+ "household": "The Marlowe household",
+ "income": [
+  {
+   "amount": 3900,
+   "source": "Maya — teaching salary (take-home)"
+  },
+  {
+   "amount": 2950,
+   "source": "Tom — electrician wages (take-home)"
+  }
+ ],
+ "members": "Maya & Tom Marlowe, and their daughter June (8)",
+ "month": "November 2026",
+ "note": "A fictional sample household. Every figure on this site belongs to this household's November 2026 budget; nothing here is a real person's money.",
+ "transactions": [
+  {
+   "amount": 3900,
+   "category": "income",
+   "date": "2026-11-01",
+   "merchant": "Payroll — Maya",
+   "note": "Monthly salary, take-home"
+  },
+  {
+   "amount": -1850,
+   "category": "housing",
+   "date": "2026-11-01",
+   "merchant": "Mortgage — First Home Bank",
+   "note": "Monthly mortgage, auto-pay"
+  },
+  {
+   "amount": -1200,
+   "category": "savings",
+   "date": "2026-11-01",
+   "merchant": "Savings transfer — goals",
+   "note": "Payday: emergency $500, roof $300, holiday $200, car $200"
+  },
+  {
+   "amount": -148.2,
+   "category": "groceries",
+   "date": "2026-11-02",
+   "merchant": "GreenMart",
+   "note": "Weekly shop"
+  },
+  {
+   "amount": -128.4,
+   "category": "utilities",
+   "date": "2026-11-03",
+   "merchant": "City Power",
+   "note": "October electricity"
+  },
+  {
+   "amount": -52.1,
+   "category": "transport",
+   "date": "2026-11-04",
+   "merchant": "Fuel — Route 9 Service",
+   "note": "Tom's car"
+  },
+  {
+   "amount": 2950,
+   "category": "income",
+   "date": "2026-11-05",
+   "merchant": "Payroll — Tom",
+   "note": "Monthly wages, take-home"
+  },
+  {
+   "amount": -42,
+   "category": "kids",
+   "date": "2026-11-05",
+   "merchant": "School lunch — June",
+   "note": "November school lunches"
+  },
+  {
+   "amount": -65,
+   "category": "utilities",
+   "date": "2026-11-06",
+   "merchant": "NorthLink Internet",
+   "note": "Monthly broadband"
+  },
+  {
+   "amount": -132.55,
+   "category": "groceries",
+   "date": "2026-11-07",
+   "merchant": "GreenMart",
+   "note": "Weekly shop"
+  },
+  {
+   "amount": -28.4,
+   "category": "dining",
+   "date": "2026-11-07",
+   "merchant": "Pizza Corner",
+   "note": "Friday takeaway"
+  },
+  {
+   "amount": -34,
+   "category": "entertainment",
+   "date": "2026-11-08",
+   "merchant": "Cinema — family film",
+   "note": "Two adults, one child"
+  },
+  {
+   "amount": -24.6,
+   "category": "health",
+   "date": "2026-11-09",
+   "merchant": "Pharmacy — HealthPlus",
+   "note": "Prescriptions"
+  },
+  {
+   "amount": -48.75,
+   "category": "transport",
+   "date": "2026-11-10",
+   "merchant": "Fuel — Route 9 Service",
+   "note": "Maya's car"
+  },
+  {
+   "amount": -51.2,
+   "category": "utilities",
+   "date": "2026-11-10",
+   "merchant": "City Water",
+   "note": "October water"
+  },
+  {
+   "amount": -141.3,
+   "category": "groceries",
+   "date": "2026-11-11",
+   "merchant": "GreenMart",
+   "note": "Weekly shop, incl. bulk rice"
+  },
+  {
+   "amount": -36,
+   "category": "transport",
+   "date": "2026-11-12",
+   "merchant": "Bus fares — City Transit",
+   "note": "June's bus pass top-up"
+  },
+  {
+   "amount": -85,
+   "category": "health",
+   "date": "2026-11-12",
+   "merchant": "Dentist — Dr. Patel",
+   "note": "Maya's check-up"
+  },
+  {
+   "amount": -60,
+   "category": "kids",
+   "date": "2026-11-13",
+   "merchant": "Swimming lessons",
+   "note": "June, November term"
+  },
+  {
+   "amount": -126.8,
+   "category": "groceries",
+   "date": "2026-11-14",
+   "merchant": "GreenMart",
+   "note": "Weekly shop"
+  },
+  {
+   "amount": -46.2,
+   "category": "dining",
+   "date": "2026-11-14",
+   "merchant": "The Noodle House",
+   "note": "Saturday dinner out"
+  },
+  {
+   "amount": -118,
+   "category": "transport",
+   "date": "2026-11-15",
+   "merchant": "Car insurance — SafeDrive",
+   "note": "Monthly premium, both cars"
+  },
+  {
+   "amount": -58,
+   "category": "utilities",
+   "date": "2026-11-15",
+   "merchant": "Phone — NorthLink Mobile",
+   "note": "Two lines"
+  },
+  {
+   "amount": -42.3,
+   "category": "home",
+   "date": "2026-11-16",
+   "merchant": "Hardware — FixIt Store",
+   "note": "Tap washer, bulbs, sealant"
+  },
+  {
+   "amount": -38,
+   "category": "misc",
+   "date": "2026-11-16",
+   "merchant": "Haircuts — Snip & Style",
+   "note": "Tom and June"
+  },
+  {
+   "amount": -139.57,
+   "category": "groceries",
+   "date": "2026-11-17",
+   "merchant": "GreenMart",
+   "note": "Weekly shop"
+  },
+  {
+   "amount": -54.9,
+   "category": "transport",
+   "date": "2026-11-18",
+   "merchant": "Fuel — Route 9 Service",
+   "note": "Tom's car"
+  },
+  {
+   "amount": -14.99,
+   "category": "entertainment",
+   "date": "2026-11-18",
+   "merchant": "Streaming — ScreenBox",
+   "note": "Monthly subscription"
+  },
+  {
+   "amount": -58.4,
+   "category": "kids",
+   "date": "2026-11-19",
+   "merchant": "Kids' shoes — StepUp",
+   "note": "June outgrew the last pair"
+  },
+  {
+   "amount": -32.7,
+   "category": "health",
+   "date": "2026-11-20",
+   "merchant": "Pharmacy — HealthPlus",
+   "note": "Vitamins and plasters"
+  },
+  {
+   "amount": -83.5,
+   "category": "utilities",
+   "date": "2026-11-20",
+   "merchant": "Gas — City Gas",
+   "note": "October gas"
+  },
+  {
+   "amount": -124.6,
+   "category": "groceries",
+   "date": "2026-11-21",
+   "merchant": "GreenMart",
+   "note": "Weekly shop"
+  },
+  {
+   "amount": -32.8,
+   "category": "dining",
+   "date": "2026-11-21",
+   "merchant": "Burger Joint",
+   "note": "Lunch after swimming"
+  },
+  {
+   "amount": -61.25,
+   "category": "home",
+   "date": "2026-11-22",
+   "merchant": "Garden — GreenThumb",
+   "note": "Winter mulch and pruners"
+  },
+  {
+   "amount": -18.5,
+   "category": "entertainment",
+   "date": "2026-11-22",
+   "merchant": "Books — Second Chapter",
+   "note": "Two second-hand paperbacks"
+  },
+  {
+   "amount": -52,
+   "category": "transport",
+   "date": "2026-11-23",
+   "merchant": "Fuel — Route 9 Service",
+   "note": "Maya's car"
+  },
+  {
+   "amount": -48,
+   "category": "kids",
+   "date": "2026-11-23",
+   "merchant": "School trip — June",
+   "note": "Museum trip contribution"
+  },
+  {
+   "amount": -86.2,
+   "category": "clothing",
+   "date": "2026-11-24",
+   "merchant": "Coats — Winter Sale",
+   "note": "Two winter coats, on sale"
+  },
+  {
+   "amount": -9.99,
+   "category": "entertainment",
+   "date": "2026-11-24",
+   "merchant": "Streaming — MusicBox",
+   "note": "Monthly subscription"
+  },
+  {
+   "amount": -118.4,
+   "category": "groceries",
+   "date": "2026-11-25",
+   "merchant": "GreenMart",
+   "note": "Weekly shop"
+  },
+  {
+   "amount": -147.2,
+   "category": "dining",
+   "date": "2026-11-25",
+   "merchant": "The Noodle House",
+   "note": "Maya's birthday dinner with friends"
+  },
+  {
+   "amount": -71,
+   "category": "home",
+   "date": "2026-11-26",
+   "merchant": "Hardware — FixIt Store",
+   "note": "Plumber call-out: leaking tap"
+  },
+  {
+   "amount": -14.4,
+   "category": "misc",
+   "date": "2026-11-26",
+   "merchant": "Birthday card & gift wrap",
+   "note": "For Maya's mum"
+  },
+  {
+   "amount": -110.5,
+   "category": "kids",
+   "date": "2026-11-26",
+   "merchant": "Music lessons — June",
+   "note": "Piano, November term"
+  },
+  {
+   "amount": -60.97,
+   "category": "entertainment",
+   "date": "2026-11-26",
+   "merchant": "Streaming — ScreenBox",
+   "note": "Annual plan renewal (was monthly)"
+  }
+ ],
+ "trend": [
+  {
+   "income": 6850,
+   "month": "September 2026",
+   "saved": 1200,
+   "spent": 4380
+  },
+  {
+   "income": 6850,
+   "month": "October 2026",
+   "saved": 1200,
+   "spent": 4712
+  },
+  {
+   "income": 6850,
+   "month": "November 2026",
+   "saved": 1200,
+   "spent": 4696.67
+  }
+ ]
+}
